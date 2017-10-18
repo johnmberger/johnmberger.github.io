@@ -20,9 +20,13 @@
 			$header = $('#header'),
 			$nav = $('#nav'), $nav_a = $nav.find('a'),
 			$wrapper = $('#wrapper');
+			$submitButtonWrapper = $('#submit-form');
 
 		// Fix: Placeholder polyfill.
 			$('form').placeholder();
+			$('form').submit(function(e) {
+				$('#submit-form-input').prop('disabled', true);
+			});
 
 		// Prioritize "important" elements on medium.
 			skel.on('+medium -medium', function() {

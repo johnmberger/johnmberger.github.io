@@ -15,6 +15,7 @@
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!-- dev icons -->
 		<link href='http://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
@@ -163,21 +164,19 @@
 								<p>If you'd like to work together on a project, drop me a line with any relevant project details.</p>
 								<form method="POST" action="https://formspree.io/johnberger@rocketmail.com">
 									<div class="row uniform">
-										<!-- <div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" style="background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%; cursor: auto;"></div> -->
-										<div class="12u"><input type="email" name="email" id="email" placeholder="Your Email"></div>
+										<div class="12u"><input type="email" name="email" id="email" placeholder="Your Email" required></div>
 									</div>
 									<div class="row uniform">
-										<div class="12u"><input type="text" name="_subject" id="subject" placeholder="Subject"></div>
+										<div class="12u"><input type="text" name="_subject" id="subject" placeholder="Subject" required></div>
 									</div>
 									<div class="row uniform">
-										<div class="12u"><textarea name="name" id="message" placeholder="Your Message" rows="6"></textarea></div>
-										<!-- <input type="hidden" name="_next" value="http://johnmberger.com/thanks!" /> -->
+										<div class="12u"><textarea name="name" id="message" placeholder="Your Message" rows="6" required></textarea></div>
 										<input type="text" name="_gotcha" style="display:none" />
 									</div>
 									<div class="row uniform">
 										<div class="12u">
 											<ul class="actions">
-												<li><input type="submit" class="special" value="Send Message"></li>
+												<li id="submit-form"><input type="submit" class="special" id="submit-form-input" value="Send Message"></li>
 												<li><input type="reset" value="Reset Form"></li>
 											</ul>
 										</div>
