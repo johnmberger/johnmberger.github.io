@@ -17,10 +17,11 @@
 	$(function() {
 
 		var params = {};location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(s,k,v){params[k]=v});
-
-		if (params.thanks) {
-			alert("Thanks for your email! I'll get back to you soon.");
-		}
+		$(document).ready(function() {
+			if (params.thanks) {
+				alert("Thanks for your email! I'll get back to you soon.");
+			}
+		});
 
 		var $body = $('body'),
 			$header = $('#header'),
