@@ -19,7 +19,15 @@
 		var params = {};location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(s,k,v){params[k]=v});
 		$(document).ready(function() {
 			if (params.thanks) {
-				alert("Thanks for your email! I'll get back to you soon.");
+				setTimeout(() => {
+					swal({
+						title: 'Thanks For Your Email!',
+						text: "I'll get back to you as soon as humanly possible.",
+						type: 'success',
+						timer: 6000,
+						confirmButtonText: 'Coolio'
+					});
+				}, 700);
 			}
 		});
 
