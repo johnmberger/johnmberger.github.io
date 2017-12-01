@@ -25,7 +25,8 @@
 						text: "I'll get back to you as soon as humanly possible.",
 						type: 'success',
 						timer: 6000,
-						confirmButtonText: 'Coolio'
+						confirmButtonText: 'Coolio',
+						confirmButtonColor: '#343751'
 					});
 				}, 700);
 			}
