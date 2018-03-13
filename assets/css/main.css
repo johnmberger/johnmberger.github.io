@@ -2600,7 +2600,7 @@
 /* One */
 
 	#one:before {
-		background-image: url("../../images/code.jpg");
+		background-image: url("../../images/hero.jpeg");
 		background-attachment: fixed;
 		background-position: top;
 		background-repeat: no-repeat;
@@ -2613,6 +2613,11 @@
 
 	#two ul.feature-icons li:before {
 		background: darkorange;
+	}
+	@media (min-width: 1024px) {
+		#one:before {
+			background-image: url("../../images/hero-fullscreen.jpeg");
+		}
 	}
 
 /* Footer */
