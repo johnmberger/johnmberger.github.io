@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/johnmberger
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://johnmberger.com
+  * I am johnmberger (https://keybase.io/johnmberger) on keybase.
+  * I have a public key with fingerprint 852A 9C03 FC12 E860 4FCA  D6ED 0417 8318 4FB7 6D0A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cfaadaa121b1f89a171675f223fcc13bd543935e1be5290f379d26c4311ca66c0a",
+      "fingerprint": "852a9c03fc12e8604fcad6ed041783184fb76d0a",
+      "host": "keybase.io",
+      "key_id": "041783184fb76d0a",
+      "kid": "0101c7e8a1fb8bc48dad83fb6458bac8081734d3ec6ddecc8267ba25b4cf088f14750a",
+      "uid": "af31eb39d75c47473fc765e5f28d2d19",
+      "username": "johnmberger"
+    },
+    "service": {
+      "hostname": "johnmberger.com",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1524588704,
+  "expire_in": 157680000,
+  "prev": "7ee7eac1a24aacf59d8c2c475d044a59c97eea04b1be9f1df74201647556a42c",
+  "seqno": 33,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMNsAnicZZJrTFxFGIYB6SrbkkKCgdKmyFnQFIGcOfezNCpY0pVCpLTBiBScM2cO
+LJfdZdnlIm4AtxGE0AoWYrGkUIjilVspNlQrlpACVbSGWsFCNWKpeMEQikgTnUX7
+q/NnMjPP9877fjOj/g946b19g90hzw4V6r0nR9qcXhnzL7ZXUIpVLaeMFVQ+3pxw
+gYqLHdn5ZpUyUjRgaKRBqEIIGKAATZIhEIEg8hrDsBpCgFVUnmNllsdAwTwj0xor
+yiojII4FAEFBQDSkoinNbMnBdpvdbHEQWYlnoIxoIgAYLAk0pyGoClilOSBKLJA4
+TREFdbMw11rsqSDmFFiMY81WskcW2f/Zu5+/55sGSMQSBJoiKYiTVKhKrKYIHC8p
+EEm0BESWU1mMBFXFCEmMICqQ4RUOabQkaYAT+U0556Yc1FiAFVZWRR5xIicS46LA
+Y9IESWVUIHvAYmy3wEJM6DxrrqVQwXYSmHJFU+SgxIywp7eeMPdDschaSBRsdqvD
+iqwF5DDX4bAZPbWOcpsHLsVK9v8y2YrZopJmkoISbC82Wy2UERASOcweXcAzJKIk
+0lw0hctsZjvONnsIXhQkmgzPNbiESIoYixgiABkOQqTxsiohhoTjySNwkJeRTAhI
+cwp5VlkDqiZyDA0EAvAC5BhEeYIVWayUkWWJT5hDNIvNORbocNox5fp8JNPXy1vv
+pdvi4/llXnq/gHt/79WsAK/+g8sr70yemjvrO7P35fGAw8njk+qs3mfg1zDtPfe2
+ysVqhRnM/Nv9zbmGXcrPd9z54bWN2CVG9Iz9mZRy/eDDkV8ush/9cN638rnsQDFl
+KXVbfU3QLwtD376dkHbAvuIXdTfCsTXtwu5M00Nf7C09dmzwor5GLZh3ntle88I/
+cQEHbp43JdUt0Ts+bDLuOFlqOHP4TrhhNqr54+mV+t0NHTmrt3Ze7zq65dyJG874
+yKnGuYS7hu/7ywp/bE5Mv9KzGKEfnmnsvOR/Oz1kj3KEmrPvm+ksSE7VHQpKCDPG
+vbHw7tCsoc2vY20oyiQ+s/O7so39fU3PfzZcGRnbG1cU8ttAd2NiyKEOXdhi61H/
+8Q90wicx60mNTt8/5r7ev5Jbtjb91q1O7sJxM3OcqnUo7b37inp8xJZav5gF2Wn7
+/ea1p922uqpwI+vo7TeU2Z588yScf8SQFb9rkJoIbwksN00bHk8e7Zqs7rHK3acn
+1sNSW/0uvmJ6cGNVNzxe9emVE6MNgVdfD23qCjasjxnlNs7x1JH2qT1rbv+sxjkw
+1Xo79aXl+PzV6avNl3WmAVNF4GofezYjb793/aPTqzUuubn/iZTIuuDLhqqWRCYm
+LdT12NJUYHf1yNRpN/yqOTeusj0zwzAUGnRt5dJy+tBPryVvvXHKkqeXN96v7Fsf
+G3FtD/9rYEKd/Be9e74K
+=tEli
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/johnmberger
+
+==================================================================
