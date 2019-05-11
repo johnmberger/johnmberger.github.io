@@ -1,4 +1,0 @@
-This is a Brave Rewards publisher verification file.
-
-Domain: johnmberger.com
-Token: 7cd1b3fb62cafdc9d5635cdc920ff7feaf982e068457279d2b449c53a227eabc
